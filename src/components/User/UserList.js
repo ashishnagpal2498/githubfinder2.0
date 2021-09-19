@@ -14,7 +14,6 @@ class UserList extends Component {
     }
     render() {
         const {users} = this.props
-        console.log("users", users);
         if(users[0]===undefined)
         {
             return( <div className="userlist" style={{display:"flex", justifyContent:"center"}}>
@@ -23,7 +22,7 @@ class UserList extends Component {
         }
         return (
             <div className="userlist">
-                <ul style={{width:"100%"}}>
+                <ul>
                     {users.map((user,index,users)=>(
                         <UserItem index={index} key={user.id} userId={this.props.activeUserId} user={user} userClicked={this.activeUserSelected} getUserRepos={this.getUserRepos}/>
                     ))}

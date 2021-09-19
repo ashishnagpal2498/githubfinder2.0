@@ -1,93 +1,88 @@
-.my-container{
-    margin: 3% 10%;
+.my-container {
+margin: 3% 10%;
 }
-.form{
-    display: block;
-    width: 100%;
-    margin-bottom: 1%;
+.form {
+display: block;
+width: 100%;
+margin-bottom: 1%;
 }
-.userlist{
-    display: inline-block;
-    width: 30%;
-    max-height: 450px;
-    height: 450px;
-    overflow-y: scroll;
+.userlist {
+flex: 1;
+max-height: 450px;
+height: 450px;
+overflow-y: scroll;
 }
 
-.user-display{
-    display: inline-block;
-    width: 65%;
-
-    /*margin-left: 35%;*/
-    flex-wrap: wrap;
-    padding: 0 5%;
+.user-display {
+flex: 3;
+flex-wrap: wrap;
+padding: 0 5%;
 }
-.my-input:focus{
-
+.my-input:focus {
 }
 
 .btn {
-    display: inline-block;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 0.4rem 1.3rem;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    margin-right: 0.5rem;
-    transition: opacity 0.2s ease-in;
-    outline: none;
+display: inline-block;
+background-color: #f4f4f4;
+color: #333;
+padding: 0.4rem 1.3rem;
+font-size: 1rem;
+border: none;
+cursor: pointer;
+margin-right: 0.5rem;
+transition: opacity 0.2s ease-in;
+outline: none;
 }
 .btn-block {
-    display: block;
-    width: 100%;
-    margin-bottom: 5%;
+display: block;
+width: 100%;
+margin-bottom: 5%;
 }
 
 /*List Item*/
-.list-item-div{
-    position: relative;
-    padding-left: 60px;
-    height: 40px;
+.list-item-div {
+position: relative;
+padding-left: 60px;
+height: 40px;
 }
-.list-item-div-image{
-    width: 50px;
-    height: 40px;
-    position: absolute;
-    left: 0;
+.list-item-div-image {
+width: 50px;
+height: 40px;
+position: absolute;
+left: 0;
 }
-.user-list-item{
-    padding: 3% 0;
-    margin: 1% 0;
-    cursor: pointer;
-    border: 1px solid transparent;
+.user-list-item {
+padding: 3% 0;
+margin: 1% 0;
+cursor: pointer;
+border: 1px solid transparent;
 }
-.active{
-    background-color: rgba(40,167,69,0.7);
-    border-color: #333333;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
+.active {
+background-color: rgba(40, 167, 69, 0.7);
+border-color: #333333;
+border-radius: 5px;
+color: #fff;
+font-weight: bold;
 }
-.list-item-div p{
-    font-size: 20px;
-    font-weight: 300;
-    align-content: start;
+.list-item-div p {
+font-size: 20px;
+font-weight: 300;
+align-content: start;
 }
-.list-item-div-image img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    position: absolute;
-    left: 20%;
-    top: 2%;
-    object-fit: contain;
+.list-item-div-image img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+position: absolute;
+left: 20%;
+top: 2%;
+object-fit: contain;
 }
-.my-inline-card{
-    width: 50%;
-    padding: 1%;
-    display: inline-block;
+.my-inline-card {
+width: 50%;
+padding: 1%;
+display: inline-block;
 }
-.btn-settings{
-    margin-left: 35%;
+.btn-settings {
+display: block;
 }

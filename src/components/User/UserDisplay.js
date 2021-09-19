@@ -11,7 +11,7 @@ class UserDisplay extends Component {
         const {repos} = this.props
 
         return (
-            <div className="user-display">
+            <Fragment>
                     <div className="card all-center">
                         <div className="all-center">
                             <div> <img src={avatar_url} className={"round-img"} alt={"Profile"} style={{width:"70px"}}/></div>
@@ -56,7 +56,7 @@ class UserDisplay extends Component {
                 <div className="card">
                     <Repos repos={repos}/>
                 </div>
-            </div>
+            </Fragment>
         );
     }
 }
